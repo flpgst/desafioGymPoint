@@ -23,6 +23,8 @@ Dados do login inicial:
 Login: admin@gympoint.com
 Senha: 123456
 
+Um aluno deve ser criado no Frontend Web, para que possa fazer acesso ao Mobile, após criar a matrícula desse aluno o ID para acesso o Mobile será mostrado na lista de matrículas.
+
 # Frontend Mobile
 
 O Frontend Mobile foi desenvolvido apenas para sistemas Android, devido a falta de disponbilidade de dispositivos IOS para testes.
