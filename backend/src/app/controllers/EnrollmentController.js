@@ -18,7 +18,7 @@ class EnrollmentController {
         {
           model: Student,
           as: 'student',
-          attributes: ['name', 'email']
+          attributes: ['name', 'email', 'user_id']
         },
         {
           model: Program,

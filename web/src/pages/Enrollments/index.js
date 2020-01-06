@@ -56,6 +56,7 @@ export default function Enrollments() {
         <List>
           <thead>
             <tr>
+            <th>Usuário</th>
               <th>Aluno</th>
               <th>Plano</th>
               <th>Início</th>
@@ -66,6 +67,7 @@ export default function Enrollments() {
           {enrollments.map(enrollment => (
             <tbody key={String(enrollment.id)}>
               <tr>
+              <td>{enrollment.student.user_id}</td>
                 <td>{enrollment.student.name}</td>
                 <td>{enrollment.program.title}</td>
                 <td>{format(parseISO(enrollment.start_date), 'dd/MM/yyyy')}</td>
